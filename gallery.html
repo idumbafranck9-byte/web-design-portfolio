@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Galerie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">MonPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Galerie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <!-- Section Vidéo de Présentation -->
+        <section class="mb-5 text-center">
+            <h2 class="mb-4">Vidéo de Motivation</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="ratio ratio-16x9 shadow rounded">
+                        <video controls poster="images/poster.jpg">
+                            <source src="WhatsApp Video 2026-10-19 at 22.21.45.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la balise vidéo.
+                        </video>
+                    </div>
+                    <p class="text-muted mt-2">Présentation explicative de ma motivation académique et professionnelle.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galerie de photos responsive -->
+        <section>
+            <h2 class="mb-4 text-center">Galerie d'activités</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="image.png" class="card-img-top" alt="Projet">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet Académique</h5>
+                            <p class="card-text text-muted">Conception d'architecture réseau et DFD.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="WhatsApp Image 2026-10-19 at 11.54.18.jpeg" class="card-img-top" alt="Campus">
+                        <div class="card-body">
+                            <h5 class="card-title">Vie Universitaire</h5>
+                            <p class="card-text text-muted">Participation aux ateliers et travaux pratiques.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="Mon Portfolio - Accueil - Google Chrome 10_19_2026 10_12_59 PM.png" class="card-img-top" alt="Code">
+                        <div class="card-body">
+                            <h5 class="card-title">Développement</h5>
+                            <p class="card-text text-muted">Création d'applications informatiques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-0">&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

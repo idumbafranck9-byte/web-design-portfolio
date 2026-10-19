@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">MonPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Galerie</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row">
+            <!-- Informations de Contact -->
+            <div class="col-md-5 mb-4">
+                <h2>Coordonnées</h2>
+                <p class="text-muted">N'hésitez pas à me contacter pour toute information ou opportunité.</p>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="bi bi-envelope-fill me-2 text-primary"></i><strong>Email:</strong> etudiant@university.ac.ug</li>
+                    <li class="mb-2"><i class="bi bi-telephone-fill me-2 text-primary"></i><strong>Téléphone:</strong> +256 700 000 000</li>
+                    <li class="mb-2"><i class="bi bi-geo-alt-fill me-2 text-primary"></i><strong>Adresse:</strong> Campus Universitaire</li>
+                    <li class="mb-2"><i class="bi bi-github me-2 text-primary"></i><strong>GitHub:</strong> github.com/votre-nom</li>
+                    <li class="mb-2"><i class="bi bi-linkedin me-2 text-primary"></i><strong>LinkedIn:</strong> linkedin.com/in/votre-nom</li>
+                </ul>
+            </div>
+
+            <!-- Formulaire Interactif -->
+            <div class="col-md-7">
+                <h2 class="mb-4">Envoyer un message</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Nom complet</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Votre nom" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Adresse Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="nom@exemple.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Sujet</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Sujet du message" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Écrivez votre message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Carte Intégrée (Bonus) -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3 class="mb-3">Localisation</h3>
+                <div class="ratio ratio-21x9 rounded shadow-sm">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.754!2d32.582!3d0.316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwMTgnNTcuNiJOIDMywrAzNCc1NS4yIkU!5e0!3m2!1sfr!2s!4v1600000000000" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-0">&copy; 2026 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
